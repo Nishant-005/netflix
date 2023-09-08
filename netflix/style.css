@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    border:border-box;
+}
+
+.navbar{
+    height: 800px;
+    width: 1000vh;
+    display: flex;
+    background-image: url(img.jpg);
+}
+.navlogo{
+    margin-left: 220px;
+    margin-top: 10px;
+    background-size: cover;
+    background-image: url(pngwing.com.png);
+    height: 50px;
+    width:150px;
+}
+.signin{
+    font-size: 1.2rem;
+    justify-content: center;
+    margin-top:17px;
+    margin-left: 12%;
+    display: flex;
+    height: 35px;
+    width: 100px;
+    background-color: red;
+}
+.text{
+    margin-top: 3px;
+    color: white;
+}
+.signin:hover{
+    cursor: pointer;
+    background-color:rgb(192, 6, 6);
+}
